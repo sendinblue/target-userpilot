@@ -8,15 +8,15 @@ setup(
     author="phani-yadla",
     url="http://singer.io",
     classifiers=["Programming Language :: Python :: 3 :: Only"],
-    py_modules=["target-userpilot"],
+    py_modules=["target_userpilot"],
     install_requires=[
         "singer-python>=5.0.12",
     ],
     entry_points="""
     [console_scripts]
-    target-userpilot=target-userpilot:main
+    target-userpilot=target_userpilot:main
     """,
-    packages=["target-userpilot"],
+    packages=["target_userpilot"],
     package_data = {},
     include_package_data=True,
 )
