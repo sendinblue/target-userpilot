@@ -1,7 +1,9 @@
 # target-userpilot
 
-Singer target for userpilot
+This is a [Singer](https://singer.io) target that reads JSON-formatted data
+following the [Singer spec](https://github.com/singer-io/getting-started/blob/master/SPEC.md).
 
-## Getting started
 
-TODO
+---
+
+Copyright &copy; 2018 Stitch
