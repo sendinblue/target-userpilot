@@ -1,0 +1,13 @@
+# MkDocs configuration, more info here: https://www.mkdocs.org/user-guide/writing-your-docs/
+
+site_name: 'target-userpilot'
+edit_uri: edit/main/docs
+repo_url: https://github.com/DTSL/target-userpilot
+plugins:
+  - techdocs-core
+markdown_extensions:
+  - toc:
+      permalink: '#'
+# Adjust the nav as you need
+nav:
+  - Home: index.md

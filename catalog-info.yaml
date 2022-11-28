@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: target-userpilot
+  title: target-userpilot
+  description: Singer target for userpilot
+  annotations:
+    github.com/project-slug: dtsl/target-userpilot
+    backstage.io/techdocs-ref: dir:docs
+  labels:
+    generated: empty
+spec:
+  type: service
+  lifecycle: experimental
+  owner: data

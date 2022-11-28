@@ -1,0 +1,9 @@
+name: Catalog Info validation
+on:
+  push:
+    paths:
+      - 'catalog-info.yaml'
+jobs:
+  validator:
+    name: Catalog Info validation
+    uses: 'DTSL/workflows/.github/workflows/catalog-info-validation.yaml@main'
