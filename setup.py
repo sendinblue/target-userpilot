@@ -11,6 +11,7 @@ setup(
     py_modules=["target_userpilot"],
     install_requires=[
         "singer-python>=5.0.12",
+        "requests>=2.28.1"
     ],
     entry_points="""
     [console_scripts]

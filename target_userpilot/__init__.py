@@ -15,6 +15,7 @@ import requests
 import pkg_resources
 from jsonschema.validators import Draft4Validator
 import singer
+
 REQUIRED_CONFIG_KEYS = ["api_key", "date_from"]
 
 logger = singer.get_logger()
