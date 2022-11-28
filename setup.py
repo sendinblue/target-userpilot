@@ -5,7 +5,7 @@ setup(
     name="target-userpilot",
     version="0.1.0",
     description="Singer.io target for extracting data",
-    author="Stitch",
+    author="phani-yadla",
     url="http://singer.io",
     classifiers=["Programming Language :: Python :: 3 :: Only"],
     py_modules=["target-userpilot"],
