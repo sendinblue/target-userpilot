@@ -94,7 +94,8 @@ def persist_lines(config, lines):
                     'is_transactional_email_validated': f"{o['record']['is_transactional_email_validated']}",
                     'is_profile_completed': f"{o['record']['is_profile_completed']}",
                     'enabled_internal_apps': f"{o['record']['enabled_internal_apps']}",
-                    'is_bot': f"{o['record']['is_bot']}"
+                    'is_bot': f"{o['record']['is_bot']}",
+                    'is_receive_newsletter': f"{o['record']['is_receive_newsletter']}"
                 },
             }
 
