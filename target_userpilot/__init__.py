@@ -95,7 +95,8 @@ def persist_lines(config, lines):
                     'is_profile_completed': f"{o['record']['is_profile_completed']}",
                     'enabled_internal_apps': f"{o['record']['enabled_internal_apps']}",
                     'is_bot': f"{o['record']['is_bot']}",
-                    'is_receive_newsletter': f"{o['record']['is_receive_newsletter']}"
+                    'is_receive_newsletter': f"{o['record']['is_receive_newsletter']}",
+                    'all_plan_names': f"{o['record']['all_plan_names']}"
                 },
             }
 
